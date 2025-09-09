@@ -1,0 +1,125 @@
+/* === Global Reset & Base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f3f6fa, #e9eff6);
+  color: #222;
+  line-height: 1.6;
+}
+
+/* === Navbar === */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004aad;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #004aad;
+}
+
+/* === Page Layout === */
+.page {
+  padding: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+/* === Card (for articles later) === */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 2
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 6px 0 0 6px;
+  border: 1px solid #ccc;
+}
+
+.search-form button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background: #0056b3;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
